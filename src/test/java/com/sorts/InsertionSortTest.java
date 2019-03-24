@@ -9,6 +9,7 @@ public class InsertionSortTest {
 
   @Test
   public void insertionSortTest() {
+
     InsertionSort insertionSort = new InsertionSort();
 
     Integer[] unsortedInt = new Integer[]{0, 5, 9, 2, 1, 3, 4, 8, 6, 7};
