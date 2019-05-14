@@ -8,12 +8,12 @@ import java.util.List;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement(name="StudentList")
+@XmlRootElement(name="studentList")
 public class StudentList {
 
     List<Student> students;    //所有学生信息的集合
 
-    @XmlElement(name = "Student")
+    @XmlElement(name = "student")
     public List<Student> getStudents() {
         return students;
     }
