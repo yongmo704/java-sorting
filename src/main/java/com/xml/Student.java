@@ -23,7 +23,7 @@ public class Student {
         this.className = className;
         this.hobby = hobby;
     }
-    @XmlAttribute(name="Name")
+    @XmlAttribute(name="name")
     public String getName() {
         return name;
     }
