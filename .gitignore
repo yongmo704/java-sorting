@@ -1,6 +1,4 @@
 Java.iml
+.idea/*
 out/
 *.iml
-.idea
-.gitignore
-/target
